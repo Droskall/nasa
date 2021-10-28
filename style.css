@@ -14,7 +14,7 @@ body {
 
 header {
     padding-top: 1rem;
-    background-image: url("space.jpg");
+    background-image: url("assets/img/space.jpg");
 }
 
 #logo {
@@ -78,3 +78,124 @@ i {
     padding-left: 0.8rem;
     padding-right: 0.8rem;
 }
+
+#satelite {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    left: 15rem;
+}
+
+#crew {
+    display: inline-block;
+    position: relative;
+    left: 15rem;
+    bottom: 20rem;
+}
+
+#info {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    left: 15rem;
+    bottom: 20rem;
+}
+
+#astro {
+    position: relative;
+    left: 60rem;
+    bottom: 20rem;
+}
+
+#ozo {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    left: 15rem;
+    bottom: 20rem;
+}
+
+#hole {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    right: 30rem;
+    left: 15rem;
+    bottom: 20rem;
+}
+
+#imageday {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    right: 30rem;
+    left: 15rem;
+    bottom: 20rem;
+}
+
+#webb {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    right: 30rem;
+    left: 15rem;
+    bottom: 20rem;
+}
+
+#nomi {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    right: 30rem;
+    left: 15rem;
+    bottom: 20rem;
+}
+
+#centre {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    right: 30rem;
+    left: 15rem;
+    bottom: 20rem;
+}
+
+#spacestation {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    right: 30rem;
+    left: 15rem;
+    bottom: 20rem;
+}
+
+#more {
+    display: block;
+    position: relative;
+    width: 100%;
+    font-size: 2rem;
+    margin: 1rem;
+    bottom: 20rem;
+    text-align: center;
+    background: #0c0c83;
+    color: white;
+}
+
+footer {
+    font-size: 1rem;
+}
+
+#paraend {
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+
+#menuend {
+    color: #0c0c83;
+    font-size: 1.25rem;
+    display: block;
+    float: right;
+}
+
