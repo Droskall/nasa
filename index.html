@@ -2,127 +2,128 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>NASA Wish</title>
+    <title>Nasa Wish</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 <header>
-
-    <img id="logo" src="assets/img/logo.png" alt="logo">
-
-    <nav id="menu">
-        <a class="a_header" href="">Missions</a>
-        <a class="a_header" href="">Galleries</a>
-        <a class="a_header" href="">NASA TV</a>
-        <a class="a_header" href="">Follow NASA</a>
-        <a class="a_header" href="">Downloads</a>
-        <a class="a_header" href="">About</a>
-        <a class="no_barre" href="">Nasa Audiences</a>
-
-        <label for="search"></label>
-        <input type="search" id="search" placeholder="Search 🔍">
-        <i class="fas fa-share-alt"></i>
-    </nav>
-
-    <nav id="back_menu">
-        <a class="a_back" href="">Humans in Space</a>
-        <a class="a_back" href="">Moon to Mars</a>
-        <a class="a_back" href="">Earth</a>
-        <a class="a_back" href="">Space Tech</a>
-        <a class="a_back" href="">Flight</a>
-        <a class="a_back" href="">Solar System and Beyond</a>
-        <a class="a_back" href="">STEM Engagement</a>
-        <a class="a_back" href="">History</a>
-        <a class="no_barre" href="">Benefits to You</a>
-    </nav>
+    <img id="NASA-logo" src="assets/img/nasa-logo.svg" alt="logo NASA">
+    <input type="search" placeholder="Search">
+    <ul>
+        <li>Missions</li>
+        <li>Galleries</li>
+        <li>NASA TV</li>
+        <li>Follow NASA</li>
+        <li>Downloads</li>
+        <li>About</li>
+        <li id="no-border">NASA audiences</li>
+    </ul>
+    <div class="second-bar">
+        <nav>
+            <ul class="ul2">
+                <li>Humans in Space</li>
+                <li>Moon to Mars</li>
+                <li>Earth</li>
+                <li>Flight</li>
+                <li>Solar System and Beyond</li>
+                <li>STEM Engagement</li>
+                <li>History</li>
+                <li id="no-border2">Benefits to You</li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
-<div>
-    <!-- Div1 -->
-    <div id="satelite">
-        <a href="#"><img src="assets/img/station.png" alt="satelite"></a>
+<section class="general">
+    <div class="first-general-div">
+        <p>Resupply Ship Launches to Space Station</p>
     </div>
 
-    <div id="crew">
-        <a href="#"><img src="assets/img/crew.png" alt="crew"></a>
+    <div class="second-general-div">
+        <div class="sous-div-general">
+            <p id="blue-font">Commercial Crew</p>
+            <p>Join the Excitement of NASA's SPaceX Crew-3 Launch</p>
+        </div>
+
+        <div class="sous-div-general2">
+            <p>Nasa Events</p>
+            <hr>
+            <p><a href="#">Thurs., Oct. 28, 1 p.m. EDT: Media teleconference to discuss the science aboard NASA's SpaceX Crew-3 mission</a></p>
+            <p><a href="#">Thurs., Oct. 28, 3 p.m. EDT: Briefing on science findings from the Juno mission to Jupiter</a></p>
+            <p><a href="#">Fri., Oct. 29, 12 p.m. EDT: Administrator's press conference on NASA's SpaceX Crew-3 mission</a></p>
+            <p><a href="#">Fri., Oct. 29, 1:30 p.m. EDT: Media teleconference to share information about S-MODE</a></p>
+            <p><a href="#">Fri., Oct. 29, 8:45 p.m. EDT: Rendezvous and docking of the ISS Progress 79 cargo ship to the space station</a></p>
+            <p><a href="#">Sat., Oct. 30, 10 p.m. EDT: Start of launch coverage of NASA's SpaceX Crew-3 mission</a></p>
+            <hr>
+            <p id="p-inline-block"><a href="#">NASA TV Schedule</a></p>
+            <p id="p-inline">Launches and Landings</p>
+        </div>
+
+        <div class="sous-div-general3">
+            <p id="blue-font-2">Astrobiology</p>
+            <p>Are We Alone in the Universe? NASA Calls for new Framework</p>
+        </div>
     </div>
 
-    <div id="info">
-        <a href="#"><img src="assets/img/info.png" alt="info"></a>
+    <div class="third-general-div">
+
+        <div class="sous-div-general4">
+            <p>Sarah Yearicks, aportando a la recoleccion de muestras planetarias</p>
+        </div>
+
+
+        <div class="sous-div-general5">
+            <p id="blue-font-3">Ozone</p>
+            <p>2021 Antartic Ozone Hole 13th- Largest, WIll Persist into...</p>
+        </div>
+
+        <div class="sous-div-general6">
+            <p id="blue-font-4">Image of the Day</p>
+            <p>Gamma Ray Ghouls!</p>
+        </div>
     </div>
 
-    <div id="astro">
-        <a href="#"><img src="assets/img/astrobiology.png" alt="astro"></a>
-    </div>
+    <div class="four-general-div">
+        <div class="sous-div-general7">
+            <p id="blue-font-5">Webb Telescope</p>
+            <p>NASA Announces Virtual Webb STEAM Day Event for Students,...</p>
+        </div>
 
-    <!-- Fin div1-->
+        <div class="sous-div-general8">
+            <p>Call for Nominations: National Space Council Users' Advisory...</p>
+        </div>
 
-    <!-- Div2 -->
+        <div class="sous-div-general9">
+            <p id="blue-font-6">Black Holes</p>
+            <p>NASA's Webb and Event Horizon to Reveal Milky Way's Massive Blac...</p>
+        </div>
 
-    <div id="ozo">
-        <a href="#"><img src="assets/img/ozone.png" alt="ozo"></a>
-    </div>
-
-    <div id="hole">
-        <a href="#"><img src="assets/img/black-holes.png" alt="hole"></a>
-    </div>
-
-    <div id="imageday">
-        <a href="#"><img src="assets/img/imageofday.png" alt="imgeday"></a>
-    </div>
-
-    <div>
+        <div class="sous-div-general10">
+            <p>NASA Raises Awareness, Inclusion During Disability Employment</p>
+        </div>
 
     </div>
-
-    <!-- Fin div2-->
-
-    <!-- Div3 -->
-
-    <div id="webb">
-        <a href="#"><img src="assets/img/webb.png" alt="webb"></a>
-    </div>
-
-    <div id="nomi">
-        <a href="#"><img src="assets/img/nomi.png" alt="nomi"></a>
-    </div>
-
-    <div id="centre">
-        <a href="#"><img src="assets/img/centre.png" alt="centre"></a>
-    </div>
-
-    <div id="spacestation">
-        <a href="#"><img src="assets/img/spacestation.png" alt="spacestation"></a>
-    </div>
-
-    <div id="more">
-        <h3>MORE STORIES</h3>
-    </div>
-
-    <!-- Fin div3-->
-
-</div>
+</section>
+<button type="button">MORE STORIES</button>
 
 <footer>
+    <img src="assets/img/nasa-logo.svg" alt="">
+    <p>National Aeronautics and Space Administration <br>
+        NASA Official: Brian Dunbar
+    </p>
 
-    <img id="logoend" src="assets/img/logo.png" alt="logo">
-
-    <p id="paraend">National Aeronautics and Space Administration
-        NASA Official: Brian Dunbar</p>
-
-    <nav id="menuend">
-        <a class="a_header" href="">No Fear Act</a>
-        <a class="a_header" href="">FOIA</a>
-        <a class="a_header" href="">Privacy</a>
-        <a class="a_header" href="">Office of Inspector General</a>
-        <a class="a_header" href="">Office of a Special Counsel</a>
-        <a class="a_header" href="">Agency Financial Reports</a>
-        <a class="no_barre" href="">Contact NASA</a>
-    </nav>
-
+    <ul>
+        <li>No Fear Act </li>
+        <li>FOIA</li>
+        <li>Privacy</li>
+        <li>Office of Inspector General</li>
+        <li>Agency Financial Reports</li>
+        <li>Contact NASA</li>
+    </ul>
 </footer>
-
-<script src="https://kit.fontawesome.com/84aafb4cd1.js" crossorigin="anonymous"></script>
-
+<i class="fas fa-share-alt"></i>
+<i class="fas fa-search"></i>
+<script src="https://kit.fontawesome.com/f06b2f84ad.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41ec4744-d9af-487a-b50b-bafadb3649eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/astrobiology.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/black-holes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/centre.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/crew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/imageofday.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/nomi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/ozone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/spacestation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/station.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/webb.png" afterDir="false" />
+    <list default="true" id="41ec4744-d9af-487a-b50b-bafadb3649eb" name="Default Changelist" comment="last-comit-of-the-day">
+      <change afterPath="$PROJECT_DIR$/astrology.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batiment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cormercialCrew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-of-the-day.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nasa-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nomination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ozone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sarah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satelite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webtelescope.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nasa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nasa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/astrobiology.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/black-holes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/centre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/crew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/imageofday.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/nomi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ozone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/space.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/spacestation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/station.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/webb.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/space.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,14 +63,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\monst\PhpstormProjects\nasa" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\monst\PhpstormProjects\nasa\assets\img" />
       <recent name="C:\Users\monst\PhpstormProjects\nasa" />
@@ -74,11 +89,36 @@
       <option name="presentableId" value="Default" />
       <updated>1635406953340</updated>
       <workItem from="1635406954480" duration="14950000" />
-      <workItem from="1635431942051" duration="820000" />
+      <workItem from="1635431942051" duration="854000" />
+      <workItem from="1635490729203" duration="1546000" />
     </task>
+    <task id="LOCAL-00001" summary="last-comit-of-the-day">
+      <created>1635432791801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635432791801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="last-comit-of-the-day" />
+    <option name="LAST_COMMIT_MESSAGE" value="last-comit-of-the-day" />
   </component>
 </project>

@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+html {
+    font-size: 62.5%;
+}
 
 * {
     margin: 0;
@@ -7,195 +9,329 @@
 }
 
 body {
-    font-size: 62.5%;
-    background-color: black;
-    font-family: 'Titillium Web', sans-serif;
+    background: black;
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
-
+/*
+ ** Menu
+ */
 header {
-    padding-top: 1rem;
-    background-image: url("assets/img/space.jpg");
-}
-
-#logo {
-    margin-left: 16rem;
-}
-
-#menu {
-    font-size: 1.25rem;
-    display: inline-block;
-    position: absolute;
-    margin-left: 11rem;
-    margin-top: 1rem;
-}
-
-.a_header {
-    text-decoration-line: none;
-    color: white;
-    border-right: 0.1rem solid #555555;
-    padding: 0.8rem;
-}
-
-.no_barre {
-    border-right: none;
-    text-decoration-line: none;
-    padding: 0.8rem;
-    color: white;
-}
-
-i {
-    color: white;
-}
-
-#search {
-    width: 12%;
-    background-color: #333333;
-    padding: 0.6rem;
-    color: #6f6e71;
-}
-
-#search_button {
-    width: 2%;
-    background-color: #333333;
-    padding: 0.6rem;
-    color: #6f6e71;
-}
-
-#back_menu {
-    font-size: 14px;
-    margin-left: 2rem;
-    display: inline-block;
-    border: 0.1rem solid #555555;
-    background-color: #555555;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.a_back {
-    text-decoration-line: none;
-    color: white;
-    border-right: 0.1rem solid #888888;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-}
-
-#satelite {
-    display: inline-block;
-    position: relative;
-    margin: 1rem;
-    left: 15rem;
-}
-
-#crew {
-    display: inline-block;
-    position: relative;
-    left: 15rem;
-    bottom: 20rem;
-}
-
-#info {
-    display: inline-block;
-    position: relative;
-    margin: 1rem;
-    left: 15rem;
-    bottom: 20rem;
-}
-
-#astro {
-    position: relative;
-    left: 60rem;
-    bottom: 20rem;
-}
-
-#ozo {
-    display: inline-block;
-    position: relative;
-    margin: 1rem;
-    left: 15rem;
-    bottom: 20rem;
-}
-
-#hole {
-    display: inline-block;
-    position: relative;
-    margin: 1rem;
-    right: 30rem;
-    left: 15rem;
-    bottom: 20rem;
-}
-
-#imageday {
-    display: inline-block;
-    position: relative;
-    margin: 1rem;
-    right: 30rem;
-    left: 15rem;
-    bottom: 20rem;
-}
-
-#webb {
-    display: inline-block;
-    position: relative;
-    margin: 1rem;
-    right: 30rem;
-    left: 15rem;
-    bottom: 20rem;
-}
-
-#nomi {
-    display: inline-block;
-    position: relative;
-    margin: 1rem;
-    right: 30rem;
-    left: 15rem;
-    bottom: 20rem;
-}
-
-#centre {
-    display: inline-block;
-    position: relative;
-    margin: 1rem;
-    right: 30rem;
-    left: 15rem;
-    bottom: 20rem;
-}
-
-#spacestation {
-    display: inline-block;
-    position: relative;
-    margin: 1rem;
-    right: 30rem;
-    left: 15rem;
-    bottom: 20rem;
-}
-
-#more {
-    display: block;
-    position: relative;
     width: 100%;
-    font-size: 2rem;
-    margin: 1rem;
-    bottom: 20rem;
+    height: 12rem;
+    background: black;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.fa-search {
+    position: absolute;
+    right: 22rem;
+    top: 2.5rem;
+    color: white;
+    z-index: 999;
+}
+.fa-share-alt {
+    position: absolute;
+    right: 18rem;
+    top: 2.5rem;
+    color: white;
+    z-index: 999;
+}
+
+header ul{
+    padding-top: 1rem;
+    display: inline-block;
+    color: white;
+    font-size: 1.8rem;
+    width: 50%;
+    margin-left: 25%;
+}
+
+header ul > li {
+    display: inline-block;
+    color: white;
+    border-right: 1px solid grey;
     text-align: center;
-    background: #0c0c83;
+    padding: 1%;
+}
+#NASA-logo {
+    position: absolute;
+    width: 110px;
+    margin-left: 7%;
+    margin-top: 11px;
+}
+
+header input {
+    float: right;
+    padding: 1rem;
+    background: rgba(85, 85, 85, 0.8);
+    margin-right: 20rem;
+    margin-top: 10px;
+    border: none;
     color: white;
 }
-
-footer {
-    font-size: 1rem;
+.second-bar {
+    margin-top: -3rem;
+    margin-inline: auto;
+    align-content: center;
+    text-align: center;
 }
 
-#paraend {
-    display: block;
-    color: #fff;
-    font-weight: 600;
-    margin: 0;
+.ul2 {
+    all: inherit;
+    background: #555555;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 5rem;
 }
 
-#menuend {
-    color: #0c0c83;
-    font-size: 1.25rem;
-    display: block;
+.ul2 li {
+    border-right: white 1px solid;
+}
+/*
+ ** Principal section (multiple article)
+ */
+section.general {
+    position: relative;
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 13rem;
+}
+
+/*
+** First principal bloc
+*/
+
+.first-general-div {
+    position: relative;
+    width: 48%;
+    color: black;
+    background-image: url("assets/img/satelite.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+    font-size: 1.8rem;
+    display: inline-block;
+}
+
+
+.first-general-div p {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    font-weight: bold;
+}
+
+/*
+** Second principal bloc
+*/
+.second-general-div {
+    position: relative;
+    width: 48%;
+    color: black;
+    font-size: 1.8rem;
+    display: inline-block;
+    top: 0;
+}
+
+.sous-div-general {
+    position: relative;
+    width: 48%;
+    background-image: url("assets/img/cormercialCrew.png");
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+.sous-div-general p {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    font-weight: bold;
+}
+
+.sous-div-general2 {
+    position: relative;
+    width: 48%;
+    display: inline-block;
+    color: white;
+    font-size: 1.2rem;
+    background: #39719e;
+    padding-inline: 10px;
+
+
+}
+.sous-div-general2 p {
+    margin-top:  0.5rem;
+}
+
+.sous-div-general2 > p >a {
+    color: white;
+    text-decoration-line: none;
+}
+
+
+.sous-div-general2 > p >a:hover {
+    text-decoration-line: underline;
+}
+
+#p-inline-block {
+    display: inline-block;
+}
+
+#p-inline {
+    display: inline;
     float: right;
 }
 
+.sous-div-general3, .sous-div-general4,.sous-div-general5, .sous-div-general6, .sous-div-general7, .sous-div-general8, .sous-div-general9, .sous-div-general10 {
+    position: relative;
+    width: 98%;
+    background-image: url("assets/img/astrology.png");
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.sous-div-general4, .sous-div-general6, .sous-div-general7, .sous-div-general8, .sous-div-general9, .sous-div-general10 {
+    width: 24%;
+    background-image: url("assets/img/sarah.png");
+}
+
+.sous-div-general5 {
+    width: 48%;
+    background-image: url(assets/img/ozone.png);
+}
+
+.sous-div-general6 {
+    background-image: url(assets/img/image-of-the-day.png);
+}
+
+.sous-div-general7 {
+    background-image: url(assets/img/webtelescope.png);
+}
+
+.sous-div-general8 {
+    background-image: url(assets/img/nomination.png);
+}
+
+.sous-div-general9 {
+    background-image: url(assets/img/space.png);
+}
+
+.sous-div-general10 {
+    background-image: url(assets/img/batiment.png);
+}
+
+
+.sous-div-general3 p,.sous-div-general4 p, .sous-div-general5 p, .sous-div-general6 p, .sous-div-general7 p, .sous-div-general8 p, .sous-div-general9 p, .sous-div-general10 p {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    bottom: 0;
+    width: 100%;
+    height: 14%;
+    font-weight: bold;
+}
+
+.sous-div-general7 p, .sous-div-general8 p, .sous-div-general9, .sous-div-general10 {
+    font-size: 1.5rem;
+}
+
+.third-general-div {
+    position: relative;
+    width: 98%;
+    color: black;
+    font-size: 1.8rem;
+    display: inline-block;
+}
+
+/*
+  ** More description for article
+  */
+#blue-font {
+    position: absolute;
+    background: rgba(93, 127, 185, 0.8);
+    bottom: 50px;
+    width: 40%;
+    height: 10%;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#blue-font-2, #blue-font-3, #blue-font-4, #blue-font-5, #blue-font-6 {
+    position: absolute;
+    background: rgba(93, 127, 185, 0.8);
+    bottom: 36px;
+    width: 20%;
+    height: 10%;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+#blue-font-3 {
+    width: 15%;
+}
+
+#blue-font-4 {
+    width: 40%;
+}
+
+#blue-font-5, #blue-font-6 {
+    width: 30%;
+}
+/*
+ ** button and footer
+ */
+
+
+button {
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    background: #15418C;
+    width: 90%;
+    padding: 1rem;
+    margin-inline: 4%;
+    border: none;
+}
+
+
+footer {
+    background: black;
+    width: 100%;
+    height: 30%;
+    margin-top: 5%;
+    color: white;
+    padding-bottom: 4%;
+}
+footer img {
+    float: left;
+    padding: 5px;
+    width: 6%;
+    margin-left: 5%;
+}
+
+footer p {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+footer ul,li {
+    display: inline-block;
+    padding: 15px;
+    color: #5d7fb9;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+footer ul {
+    margin-left: 20%;
+}
